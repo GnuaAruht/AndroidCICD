@@ -1,4 +1,4 @@
-name: Testing and Linting Debug
+name: On pull request opened
 
 on:
   pull_request:
