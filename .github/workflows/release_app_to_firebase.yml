@@ -6,8 +6,8 @@ on:
       release_note:
         type: string
         required: true
-        description: 'This is release note description'
-        default: "Manual Debug Version"
+        description: 'Release note description'
+        default: "Release app to firebase"
 
 jobs:
     run_test:
