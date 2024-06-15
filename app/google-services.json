@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "956947728309",
-    "project_id": "githubactions-7e547",
-    "storage_bucket": "githubactions-7e547.appspot.com"
+    "project_number": "98955712250",
+    "project_id": "testgithubactions-b1202",
+    "storage_bucket": "testgithubactions-b1202.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:956947728309:android:907eb648c6b3308f01bbfc",
+        "mobilesdk_app_id": "1:98955712250:android:06953241bccb06b4299b43",
         "android_client_info": {
           "package_name": "com.example.androidcicd"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDFk7P6_7jXrieVbbTuAyE0ZOijxJsIYBE"
+          "current_key": "AIzaSyCVsvdCmp1ZVG3hatd07dN7WsbYUOg0drc"
         }
       ],
       "services": {
