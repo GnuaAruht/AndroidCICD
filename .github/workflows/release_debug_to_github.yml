@@ -7,7 +7,7 @@ on:
 
 jobs:
   release_debug_to_github:
-    name: Release debug to Github
+    name: Test release on Github
     runs-on: ubuntu-latest
 
     steps:
