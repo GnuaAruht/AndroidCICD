@@ -24,16 +24,16 @@ jobs:
         - name: Setup Gradle
           uses: gradle/actions/setup-gradle@v3
 
-        - name: Execute gradle command - assembleDebug
-          run: ./gradlew assembleDebug
+        - name: Execute gradle command - assembleRelease
+          run: ./gradlew assembleRelease
 
         - name: upload artifact to Firebase App Distribution
           uses: wzieba/Firebase-Distribution-Github-Action@v1
           with:
-            appId: ${{secrets.FIREBASE_APP_ID}}
+            appId: ${{ secrets.FIREBASE_APP_ID }}
             serviceCredentialsFileContent: ${{ secrets.CREDENTIAL_FILE_CONTENT }}
             groups: testers
-            file: app/build/outputs/apk/debug/app-debug.apk
+            file: app/build/outputs/apk/release/app-release-unsigned.apk
             releaseNotes: ${{ inputs.release_note }}
 
 
